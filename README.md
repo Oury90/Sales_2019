@@ -65,7 +65,7 @@ def month(x):
 my_datas['Month']=my_datas['Order Date'].apply(month)
 my_datas.head(5)
 ```
-Using 'unique()' method to find the unique values DataFrame column 'Month'.
+Using 'unique()' method to find the unique values DataFrame column `Month`.
 ```Python
 my_datas['Month'].unique()
 ```
@@ -82,7 +82,7 @@ my_datas['Price Each'] = my_datas['Price Each'].astype(float)
 my_datas.dtypes
 ```
 ![Oury](assets/images/data-5.png)
-Creating a column named 'Sales' to calculate the sales.
+Creating a column named `Sales` to calculate the sales.
 ```Python
 my_datas['Sales'] = my_datas['Quantity Ordered'] * my_datas['Price Each']
 my_datas.head(5)
@@ -119,5 +119,5 @@ my_datas.groupby('Product')['Quantity Ordered'].sum().plot.bar()
 ![Oury](assets/images/data-10.png)
 # Creating a dashboard
 ![Oury](assets/images/sales_videos.gif)
-👇
+Link to all Code👇
 [Copy notbook code ](Project_sales.ipynb)
