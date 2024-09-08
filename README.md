@@ -121,4 +121,5 @@ my_datas.groupby('Product')['Quantity Ordered'].sum().plot.bar()
 ![Oury](assets/images/sales_videos.gif)
 <br>
 Link to all Code👇
+<br>
 [Copy notbook code ](Project_sales.ipynb)
