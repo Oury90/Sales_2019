@@ -119,3 +119,4 @@ my_datas.groupby('Product')['Quantity Ordered'].sum().plot.bar()
 ![Oury](assets/images/data-10.png)
 # Creating a dashboard
 ![Oury](assets/images/sales_videos.gif)
+[Copy notbook code ](Project_sales.ipynb)
