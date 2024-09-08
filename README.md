@@ -119,5 +119,6 @@ my_datas.groupby('Product')['Quantity Ordered'].sum().plot.bar()
 ![Oury](assets/images/data-10.png)
 # Creating a dashboard
 ![Oury](assets/images/sales_videos.gif)
+<br>
 Link to all Code👇
 [Copy notbook code ](Project_sales.ipynb)
